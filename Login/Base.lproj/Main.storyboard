@@ -52,6 +52,7 @@
                         <outlet property="loginButton" destination="fcc-Xq-av7" id="mbN-EU-8GH"/>
                         <outlet property="passwordTextField" destination="XN3-1d-cp6" id="4nd-rC-jDA"/>
                         <outlet property="userTextField" destination="wYg-Gc-SeW" id="9J3-wa-J2n"/>
+                        <segue destination="bCa-mz-dTG" kind="show" identifier="segue" id="biF-N1-4fW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -90,6 +91,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="iL5-2v-mIg"/>
+                    <connections>
+                        <outlet property="emialReceived" destination="LO5-wp-shx" id="FNb-Nb-eAg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="okU-tB-wNd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

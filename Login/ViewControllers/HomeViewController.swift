@@ -8,10 +8,17 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    var emailString: String?
+    
+    
+    @IBOutlet weak var emialReceived: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if let strings = emailString{
+            emialReceived.text = strings
+        }
         // Do any additional setup after loading the view.
     }
     
